@@ -57,4 +57,5 @@ Instrutora de Yoga
 Desenvolvedora em formação
 
 •Alexandre Pitta
+
 Desenvolvedor
