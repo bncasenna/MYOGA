@@ -7,7 +7,7 @@ O projeto tem como objetivo oferecer um ambiente organizado e acessível para ac
 
 ---
 
-## 🌿 Sobre o Projeto
+## Sobre o Projeto
 
 O Myoga foi criado para centralizar:
 
@@ -38,7 +38,7 @@ A proposta é transformar a experiência da prática em algo contínuo, acessív
 
 ---
 
-## 🎯 Objetivo
+## Objetivo
 
 Criar uma plataforma própria para disponibilização de aulas online, fortalecendo a conexão com os alunos e oferecendo autonomia digital para o ensino de yoga.
 
@@ -50,12 +50,11 @@ Criar uma plataforma própria para disponibilização de aulas online, fortalece
 
 ---
 
-## 👩‍💻 Autora
+## Autores
 
 •Bianca Senna  
-Instrutora de Yoga  
-Desenvolvedora em formação
+-Instrutora de Yoga  
+-Desenvolvedora em formação
 
 •Alexandre Pitta
-
-Desenvolvedor
+-Desenvolvedor
