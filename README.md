@@ -1,7 +1,7 @@
-# MYOGA 🧘🏾‍♀️
+# MYIOGA 🧘🏾‍♀️
 My Yoga Class - Full Stack application for online yoga classes
 
-**Myoga** é uma plataforma online desenvolvida para disponibilizar aulas de yoga exclusivas para alunos.
+**MyIoga** é uma plataforma online desenvolvida para disponibilizar aulas de yoga exclusivas para alunos.
 
 O projeto tem como objetivo oferecer um ambiente organizado e acessível para acompanhamento das práticas, promovendo bem-estar, constância e evolução na jornada do yoga.
 
@@ -9,7 +9,7 @@ O projeto tem como objetivo oferecer um ambiente organizado e acessível para ac
 
 ## Sobre o Projeto
 
-O Myoga foi criado para centralizar:
+O MyIoga foi criado para centralizar:
 
 - 📹 Aulas gravadas
 - 📅 Organização das práticas
@@ -22,10 +22,10 @@ A proposta é transformar a experiência da prática em algo contínuo, acessív
 
 ## Funcionalidades
 
-- Sistema de login para alunos  
-- Área restrita com acesso às aulas  
-- Organização de vídeos por categoria ou nível  
-- Estrutura preparada para expansão futura  
+- Sistema de login para alunos.  
+- Área restrita com acesso às aulas.  
+- Organização de vídeos por categoria ou nível.  
+- Estrutura preparada para expansão futura.  
 
 ---
 
