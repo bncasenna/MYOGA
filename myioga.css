@@ -1,80 +1,185 @@
-.centralizado {
-    text-align: center;
-    text-shadow: 1px 1px 2px rgba(214, 115, 21, 0.4);
+:root {
+    --corPrincipal: #CD853F;
+    --corSuave: #dfc3a8;
+    --corFundoBox: #f8dbc9;
+    --corHoverMarrom: #a96c2f;
+    --corBotaoVerde: #2d6a4f; 
+    --corTextoEscuro: #333333;
+    --corTextoClaro: #ffffff;
 }
 
-.centralizado img {
-    display: block;
-    margin: 20px auto;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.barra-topo {
-    background-color: #f8dbc9;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--corTextoClaro);
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: var(--corSuave);
     padding: 15px;
     text-align: center;
-    border-top: 4px double #CD853F;
-    border-bottom: 4px double #CD853F;
+    border-top: 4px double var(--corPrincipal);
+    border-bottom: 4px double var(--corPrincipal);
 }
 
-.barra-topo a {
-    color: #CD853F;
+.navbar a {
+    color: var(--corPrincipal);
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
-    font-size: 1.2rem;
-    text-shadow: 1px 1px 2px rgba(214, 115, 21, 0.4);
+    font-size: 1.1rem;
+    transition: 0.3s ease;
 }
 
-.barra-topo a:hover {
-    color: #ffffff;
+.navbar a:hover {
+    color: var(--corTextoClaro);
 }
 
-.formulario-box {
-    width: 350px;               
-    padding: 20px;              
-    border: 2px solid #CD853F;     
-    border-radius: 8px;         
-    margin: 40px;               
-    text-align: left;           
-    box-shadow: 2px 2px 8px rgba(228, 97, 9, 0.2); 
-    background-color: #f8dbc9; 
+.topoSite {
+    text-align: center;
+    padding: 40px 0 20px 0;
 }
 
-.formulario-box h1 {
-    margin-bottom: 20px;
+.topoSite h1 {
+    font-size: 3rem;
+    color: var(--corTextoEscuro);
+    letter-spacing: 5px;
 }
 
-.formulario-box input {
-    width: 100%;               
-    padding: 8px;
-    box-sizing: border-box;    
-    border: 1px solid #CD853F;
+.containerImagemInfinita {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    margin-left: -50vw;
+}
+
+.containerImagemInfinita img {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.subtextoSite {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.subtextoSite h3 {
+    font-weight: normal;
+    color: #555;
+    line-height: 1.6;
+}
+
+.areaCadastro {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 100px; 
+    background-color: var(--corPrincipal);
+    padding: 80px 20px;
+}
+
+.cadastroBox {
+    background-color: var(--corFundoBox);
+    padding: 30px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 350px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.cadastroBox h2 {
+    margin-bottom: 25px;
+    color: var(--corPrincipal);
+    text-align: center; 
+}
+
+.cadastroBox label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: var(--corHoverMarrom);
+}
+
+.cadastroBox input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid var(--corPrincipal);
     border-radius: 4px;
 }
 
-.formulario-box button {
-    display: block;           
-    margin: 20px auto 0 auto; 
-    padding: 10px 25px;
-    background-color: #CD853F; 
-    color: #F5DEB3;
+.cadastroBox button {
+    width: 100%;
+    padding: 14px;
+    background-color: var(--corPrincipal);
+    color: white;
     border: none;
     border-radius: 5px;
-    font-size: 1rem;
+    font-weight: bold;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: 0.4s ease;
 }
 
-.formulario-box button:hover {
-    background-color: #45a049;
+.cadastroBox button:hover {
+    background-color: var(--corBotaoVerde);
 }
 
-.comunicacao-box {
-    width: 350px;
-    padding: 20px;
-    border: 2px solid #555;
-    border-radius: 8px;
-    background-color: #eef3f7;
-    box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
-    text-align: left;
+.freeClass {
+    max-width: 500px; 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.freeClass h2 {
+    margin-bottom: 30px;
+    font-size: 2.2rem;
+    text-align: center;
+    color: var(--corTextoEscuro)
+}
+
+.freeClass p {
+    line-height: 1.8;
+    margin-bottom: 25px;
+    font-size: 1.1rem;
+    text-align: justify;       
+    text-align-last: center;   
+    max-width: 420px;          
+}
+
+.freeClass button {
+    margin-top: 10px;
+    padding: 14px 45px;
+    background-color: var(--corFundoBox);
+    color: var(--corPrincipal);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.freeClass button:hover {
+    background-color: var(--corBotaoVerde);
+    color: white;
+    transform: translateY(-3px);
+}
+
+/* --- RESPONSIVIDADE --- */
+@media (max-width: 900px) {
+    .areaCadastro {
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+    }
 }
